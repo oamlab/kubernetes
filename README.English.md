@@ -21,7 +21,7 @@
 - [Online Documentation：https://github.com/oamlab/kubernetes](https://github.com/oamlab/kubernetes/blob/main/README.English.md)
 
 ## 🔋 Repository Contact
-| 姓名						 | 联系方式             |
+| Full Name						 |CONTACT|
 |----------|------------------|
 | **Zeng Xianglin**  | 839225516@qq.com |
 | **XXX**  | XXX@XXX.com      |
