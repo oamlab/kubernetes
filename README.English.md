@@ -23,7 +23,7 @@
 ## 🔋 Repository Contact
 | 姓名						 | 联系方式             |
 |----------|------------------|
-| **曾祥林**  | 839225516@qq.com |
+| **Zeng Xianglin**  | 839225516@qq.com |
 | **XXX**  | XXX@XXX.com      |
 
 ## 🔒 Background
