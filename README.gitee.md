@@ -17,10 +17,10 @@
 ---
 
 ## 🌏 前言
-- [在线文档：https://github.com/oamlab/kubernetes](https://github.com/oamlab/kubernetes)
+- [在线文档：https://gitee.com/oamlab/kubernetes](https://gitee.com/oamlab/kubernetes)
 - [Online Documentation：https://github.com/oamlab/kubernetes](https://github.com/oamlab/kubernetes/blob/main/README.English.md)
 
-*[国内访问请使用国内资料仓gitee入口，点击进入](https://gitee.com/oamlab/kubernetes)
+*[国际访问请使用国际资料仓github入口，点击进入](https://github.com/oamlab/kubernetes)
 
 ## 🔋 仓库联系人
 | 姓名						 | 联系方式             |
