@@ -35,13 +35,12 @@
 ## 📚 Currently Sharing Content：
 
 - [Directory](./kubernetes)
-- [Value Analysis](./kubernetes/3011_Value_Analysis)
-- [Compile or Package](./kubernetes/3021_Compile_or_Package)
-- [Deploy Config](./kubernetes/3061_Deploy_Config)
-- [Performance Testing](./kubernetes/3121_Performance_Testing)
 - ...
 - ..
 - .
+
+## 📃 Others
+- Part 1: https://github.com/oamlab/oamlab/tree/main/OAMLab/401_%E8%BF%90%E7%BB%B4%E5%AE%9E%E9%AA%8C/2023-08
 
 ## 📶 Technical Exchange Club
 (CN)SHENZHEN OAM CLUB, QQ group：216589280 [Click to join](https://jq.qq.com/?_wv=1027&k=tdDtDoUp)
