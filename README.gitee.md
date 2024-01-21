@@ -37,13 +37,12 @@
 ## 📚 当前分享内容：
 
 - [目录](./kubernetes)
-- [价值分析](./kubernetes/3011_Value_Analysis)
-- [编译取包](./kubernetes/3021_Compile_or_Package)
-- [部署配置](./kubernetes/3061_Deploy_Config)
-- [性能测试](./kubernetes/3121_Performance_Testing)
 - ...
 - ..
 - .
+
+## 📃 其他资料
+- 资料1：https://gitee.com/oamlab/oamlab/tree/main/OAMLab/401_%E8%BF%90%E7%BB%B4%E5%AE%9E%E9%AA%8C/2023-08
 
 ## 📶 技术交流群
 深圳运维圈 QQ交流群：216589280 [点击加入](https://jq.qq.com/?_wv=1027&k=tdDtDoUp)
