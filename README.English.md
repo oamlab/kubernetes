@@ -35,6 +35,7 @@
 ## 📚 Currently Sharing Content：
 
 - [Directory](./kubernetes)
+- [Overview of deploying Kubernetes](./kubernetes/3181_Others/README.md)
 - ...
 - ..
 - .
