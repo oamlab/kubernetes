@@ -11,6 +11,16 @@
 ## For Install Kubernetes 1.27.6 1.28.x 1.29.x
 
 
+### Server Configuration
+````
+KVM, 4C-16G-10T
+KVM, 16C-64G-10T
+KVM, 32C-128G-10T
+
+或者使用其他服务器配置。
+or other server configurations.
+````
+
 ### Operating System
 ````
 CentOS Stream 9 x86 64
