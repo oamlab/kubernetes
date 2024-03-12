@@ -17,8 +17,8 @@ KVM, 4C-16G-10T
 KVM, 16C-64G-10T
 KVM, 32C-128G-10T
 
-或者使用其他服务器配置。
-or other server configurations.
+或者使用其他虚拟主机服务器配置。
+or use other virtual host server configurations.
 ````
 
 ### Operating System
