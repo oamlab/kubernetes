@@ -21,6 +21,23 @@ KVM, 32C-128G-10T
 or use other virtual host server configurations.
 ````
 
+### Environment deployment planning
+- Kubernetes for Middleware
+
+| Environment Name						 | Quantity(sets)	 | Number of Hosts |
+|------------------------|----------------:|-----------------|
+| **dev**                |               2 | ≥6              |
+| **test**               |               2 | ≥6              |
+| **prod**               |               2 | ≥6              |
+
+- Kubernetes for Enterprise business application container
+
+| Environment Name						 | Quantity(sets)	 | Number of Hosts |
+|------------------------|----------------:|-----------------|
+| **dev**                |               2 | ≥6              |
+| **test**               |               2 | ≥6              |
+| **prod**               |               3 | ≥9              |
+
 ### Operating System
 ````
 CentOS Stream 9 x86 64
@@ -62,11 +79,13 @@ https://helm.sh/docs/intro/install/
 ````
 
 ### Install Web Management Panel
-- 应注重使用Kubernetes的原生命令行：kubectl apply -f Deployment_xxx.yaml
+- 不鼓励依赖于使用Web管理面板，应通过命令行去理解kubernetes。应注重使用Kubernetes的原生命令行：kubectl apply -f Deployment_xxx.yaml
+- 或者只使用Web管理面板查询。
 - Web管理面板即插即用，可卸载。
 - Web管理面板的QPS能力为10就可以了。
 - 
-- Attention should be paid to using the native command line of Kubernetes: kubectl apply -f Deployment_xxx.yaml
+- Reliance on using the web management panel is discouraged and Kubernetes should be understood through the command line.Attention should be paid to using the native command line of Kubernetes: kubectl apply -f Deployment_xxx.yaml
+- Or just query using the web admin panel.
 - The web management panel is plug and play and can be uninstalled.
 - A QPS capability of 10 for the web management panel is sufficient.
 ````
@@ -92,12 +111,16 @@ Nightingale: compose-host-network
 https://flashcat.cloud/docs/content/flashcat-monitor/nightingale-v6/install/docker-compose/
 https://gitlink.org.cn/ccfos/nightingale/tree/main/docker%2Fcompose-host-network
 
-Install Categraf
+Install Categraf:
 https://github.com/flashcatcloud/categraf/blob/main/k8s/daemonset.yaml
 ````
 
 ### Collect logs
 ````
+https://github.com/elastic/helm-charts/tree/main/elasticsearch
+
+https://github.com/elastic/helm-charts/tree/main/kibana
+
 https://www.elastic.co/guide/en/beats/filebeat/current/running-on-kubernetes.html
 https://github.com/elastic/beats/blob/main/deploy/kubernetes/filebeat-kubernetes.yaml
 ````
@@ -108,6 +131,17 @@ scp Centos_Stream_9_Kubernetes.qcow2 root@192.x.x.x:/opt/backup/Kubernetes/Cento
 ````
 
 ### Others
+1、For Helm
 ````
-...
+https://github.com/bitnami/charts/tree/main/bitnami/mysql
+
+https://github.com/bitnami/charts/tree/main/bitnami/redis-cluster
+
+https://github.com/bitnami/charts/tree/main/bitnami/mongodb
+
+https://github.com/bitnami/charts/tree/main/bitnami/minio
+
+https://github.com/bitnami/charts/tree/main/bitnami/kafka
+
+https://github.com/bitnami/charts/tree/main/bitnami/rabbitmq
 ````
