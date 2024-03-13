@@ -59,7 +59,7 @@
 
 
 <p align="center">
-	<img alt="kubernetes_gitee_img" src="https://www.wegoodgoodstudydaydayup.com/kubernetes_gitee.webp?v=202403132123">
+	<img alt="kubernetes_english_img" src="https://www.wegoodgoodstudydaydayup.com/kubernetes_english.webp?v=202403132123">
 </p>
 
 <br>
