@@ -62,7 +62,6 @@
 ## ❔ 其他
 - 1、使用英文目录名是为了避免URL中出现转码字符。
 
-
 <p align="center">
 	<img alt="kubernetes_github_img" src="https://www.wegoodgoodstudydaydayup.com/kubernetes_github.webp?v=202403132123">
 </p>
