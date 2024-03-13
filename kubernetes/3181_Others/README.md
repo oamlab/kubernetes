@@ -145,3 +145,9 @@ https://github.com/bitnami/charts/tree/main/bitnami/kafka
 
 https://github.com/bitnami/charts/tree/main/bitnami/rabbitmq
 ````
+
+<p align="center">
+	<img alt="kubernetes_3181_img" src="https://www.wegoodgoodstudydaydayup.com/kubernetes_3181.webp?v=202403132123">
+</p>
+
+<br>
