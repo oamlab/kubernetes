@@ -56,12 +56,12 @@ https://kubernetes.io/zh-cn/docs/setup/production-environment/container-runtimes
 
 ### Install Kubernetes
 ````
-Method A:
+Method A: yum
 https://kubernetes.io/zh-cn/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 ````
 
 ````
-Method B:
+Method B: rpm
 https://mirrors.tuna.tsinghua.edu.cn/kubernetes/yum/repos/kubernetes-el7-x86_64/Packages/
 https://mirrors.tuna.tsinghua.edu.cn/kubernetes/yum/repos/kubernetes-el7-x86_64/Packages/12592ba0c35220af878a91ded391d796243155f29032739b0a7b4f53f2134cf9-kubelet-1.27.6-0.x86_64.rpm
 https://mirrors.tuna.tsinghua.edu.cn/kubernetes/yum/repos/kubernetes-el7-x86_64/Packages/873fd10acbb0d4c6fa1041c70a733cc99f403dbce8fb3f3c825a11ebbe0792aa-kubectl-1.27.6-0.x86_64.rpm
