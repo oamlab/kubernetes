@@ -24,19 +24,19 @@ or use other virtual host server configurations.
 ### Environment deployment planning
 - Kubernetes for Middleware
 
-| Environment Name						 | Quantity(sets)	 | Number of Hosts |
-|------------------------|----------------:|-----------------|
-| **dev**                |               2 | ≥6              |
-| **test**               |               2 | ≥6              |
-| **prod**               |               2 | ≥6              |
+|  Environment Name		| 	Number of Hosts per Set	 | Quantity(sets)  |  Number of Hosts  |
+|:------------------------:|:-------------------------:|:---------------:|:-----------------:|
+|         **dev**          |             ≥3             |        2        |        ≥6         |
+|         **test**         |             ≥3             |        2        |        ≥6         |
+|         **prod**         |             ≥3             |        2        |        ≥6         |
 
 - Kubernetes for Enterprise business application container
 
-| Environment Name						 | Quantity(sets)	 | Number of Hosts |
-|------------------------|----------------:|-----------------|
-| **dev**                |               2 | ≥6              |
-| **test**               |               2 | ≥6              |
-| **prod**               |               3 | ≥9              |
+|  Environment Name		| 	Number of Hosts per Set	 | Quantity(sets) | Number of Hosts |
+|:------------------------:|:-------------------------:|:--------------:|:---------------:|
+|         **dev**          |             ≥3             |       2        |       ≥6        |
+|         **test**         |             ≥3             |       2        |       ≥6        |
+|         **prod**         |             ≥3             |       3        |       ≥9        |
 
 ### Operating System
 ````
@@ -84,8 +84,8 @@ https://helm.sh/docs/intro/install/
 - Web管理面板即插即用，可卸载。
 - Web管理面板的QPS能力为10就可以了。
 - 
-- Reliance on using the web management panel is discouraged and Kubernetes should be understood through the command line.Attention should be paid to using the native command line of Kubernetes: kubectl apply -f Deployment_xxx.yaml
-- Or just query using the web admin panel.
+- Reliance on using the web management panel is discouraged and Kubernetes should be understood through the command line. Attention should be paid to using the native command line of Kubernetes: kubectl apply -f Deployment_xxx.yaml
+- Or just query using the web management panel.
 - The web management panel is plug and play and can be uninstalled.
 - A QPS capability of 10 for the web management panel is sufficient.
 ````
