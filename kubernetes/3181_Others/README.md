@@ -146,6 +146,19 @@ https://github.com/bitnami/charts/tree/main/bitnami/kafka
 https://github.com/bitnami/charts/tree/main/bitnami/rabbitmq
 ````
 
+2、About certificates
+````
+https://kubernetes.io/zh-cn/docs/tasks/administer-cluster/kubeadm/kubeadm-certs/
+
+自动更新证书
+kubeadm 会在控制面升级的时候更新所有证书。
+这个功能旨在解决最简单的用例；如果你对此类证书的更新没有特殊要求， 并且定期执行 Kubernetes 版本升级（每次升级之间的间隔时间少于 1 年）， 则 kubeadm 将确保你的集群保持最新状态并保持合理的安全性。
+
+Automatic certificate renewal
+kubeadm renews all the certificates during control plane upgrade.
+This feature is designed for addressing the simplest use cases; if you don't have specific requirements on certificate renewal and perform Kubernetes version upgrades regularly (less than 1 year in between each upgrade), kubeadm will take care of keeping your cluster up to date and reasonably secure.
+````
+
 <p align="center">
 	<img alt="kubernetes_3181_img" src="https://www.wegoodgoodstudydaydayup.com/kubernetes_3181.webp?v=202403132123">
 </p>
