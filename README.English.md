@@ -27,10 +27,10 @@
 | **Andy Yao**       | 77810419@qq.com   |
 
 ## 🔒 Background
-- XXX
+- In recent years, the demand for the privatization of container hosting platforms for business applications in various enterprises has been increasing.
 
 ## 🔑 Purpose
-- XXX
+- Used to introduce the preliminary construction method of container hosting platform Kubernetes.
 
 ## 📚 Currently Sharing Content：
 
