@@ -27,7 +27,7 @@
 | **Andy Yao**       | 77810419@qq.com   |
 
 ## 🔒 Background
-- In recent years, the demand for the privatization of container hosting platforms for business applications in various enterprises has been increasing.
+- In recent years, the demand for the privatization of business application container hosting platforms by various enterprises has been increasing.
 
 ## 🔑 Purpose
 - Used to introduce the preliminary construction method of container hosting platform Kubernetes.
