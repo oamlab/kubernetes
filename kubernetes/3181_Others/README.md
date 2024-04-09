@@ -24,19 +24,19 @@ or use other virtual host server configurations.
 ### Environment deployment planning
 - Kubernetes for Middleware
 
-|  Environment Name		| 	Number of Hosts per Set	 | Quantity(sets)  |  Number of Hosts  |
-|:------------------------:|:-------------------------:|:---------------:|:-----------------:|
-|         **dev**          |             ≥3             |        2        |        ≥6         |
-|         **test**         |             ≥3             |        2        |        ≥6         |
-|         **prod**         |             ≥3             |        2        |        ≥6         |
+|     Environment Name     | Number of Containers per Set |  Number of Hosts per Set  | Quantity(sets)  |  Number of Hosts  |
+|:------------------------:|:----------------------------:|:-------------------------:|:---------------:|:-----------------:|
+|         **dev**          |              ≤100            |             ≥3            |        2        |        ≥6         |
+|         **test**         |              ≤100            |             ≥3            |        2        |        ≥6         |
+|         **prod**         |              ≤100            |             ≥3            |        2        |        ≥6         |
 
 - Kubernetes for Enterprise business application container
 
-|  Environment Name		| 	Number of Hosts per Set	 | Quantity(sets) | Number of Hosts |
-|:------------------------:|:-------------------------:|:--------------:|:---------------:|
-|         **dev**          |             ≥3             |       2        |       ≥6        |
-|         **test**         |             ≥3             |       2        |       ≥6        |
-|         **prod**         |             ≥3             |       3        |       ≥9        |
+|     Environment Name     | Number of Containers per Set |  Number of Hosts per Set  | Quantity(sets) | Number of Hosts |
+|:------------------------:|:----------------------------:|:-------------------------:|:--------------:|:---------------:|
+|         **dev**          |              ≤10000          |               ≥3          |       2        |       ≥6        |
+|         **test**         |              ≤10000          |               ≥3          |       2        |       ≥6        |
+|         **prod**         |              ≤10000          |               ≥3          |       3        |       ≥9        |
 
 ### Operating System
 ````
