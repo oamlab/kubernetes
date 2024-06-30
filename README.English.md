@@ -21,10 +21,10 @@
 - [Online Documentation：https://github.com/oamlab/kubernetes](https://github.com/oamlab/kubernetes/blob/main/README.English.md)
 
 ## 🔋 Repository Contact
-|     Full Name   	 |       CONTACT     |
-|--------------------|-------------------|
-| **Zeng Xianglin**  | 839225516@qq.com  |
-| **Andy Yao**       | 77810419@qq.com   |
+| Full Name   	 |       CONTACT     |
+|---------------|-------------------|
+| **Xianglin Zeng** | 839225516@qq.com  |
+| **Andy Yao**  | 77810419@qq.com   |
 
 ## 🔒 Background
 - In recent years, the demand for the privatization of business application container hosting platforms by various enterprises has been increasing.
@@ -41,7 +41,7 @@
 - .
 
 ## 📃 Others
-- Part 1: https://github.com/oamlab/oamlab/tree/main/OAMLab/401_%E8%BF%90%E7%BB%B4%E5%AE%9E%E9%AA%8C/2023-08
+- Part 1: [OAMLab . Operation and Maintenance Laboratory . Issue 202406 . Topic Sharing Meeting . Xianglin Zeng . Basic calls to the k8s API](https://github.com/oamlab/oamlab/tree/main/OAMLab/401_%E8%BF%90%E7%BB%B4%E5%AE%9E%E9%AA%8C/2023-08)
 
 ## 📶 Technical Exchange Club
 (CN)SHENZHEN OAM CLUB, QQ group：216589280 [Click to join](https://jq.qq.com/?_wv=1027&k=tdDtDoUp)
