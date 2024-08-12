@@ -30,7 +30,7 @@
 - In recent years, the demand for the privatization of business application container management platforms by various enterprises has been increasing.
 
 ## 🔑 Purpose
-- Used to introduce the preliminary construction method of container hosting platform Kubernetes.
+- Used to introduce the preliminary construction method of container management platform Kubernetes.
 
 ## 📚 Currently Sharing Content：
 
